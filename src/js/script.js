@@ -319,6 +319,7 @@ class Application {
         }
 
         window.localStorage.setItem('favorites', JSON.stringify(filteredJokes));
+        this.favorites = filteredJokes;
         this.printFavourites(filteredJokes)
 
     }
@@ -341,6 +342,7 @@ class Application {
         }
 
         window.localStorage.setItem('favorites', JSON.stringify(filteredJokes));
+        this.favorites = filteredJokes;
         this.printFavourites(filteredJokes)
 
     }
